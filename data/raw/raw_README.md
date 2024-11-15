@@ -6,13 +6,14 @@ This folder contains the original datasets for the "Health Data Dashboard" proje
 1. **Zero Dose Coverage (2000–2023)**:
    - Source: [UNICEF Immunization Data](https://data.unicef.org/resources/data_explorer/unicef_f/?ag=UNICEF&df=GLOBAL_DATAFLOW&ver=1.0&dq=NGA.DM_POP_U5+IM_DTP1.&startPeriod=2000&endPeriod=2024)
    - File Name: `zero_dose_coverage.csv`
-2. **Immunization Rates by State**:
-   - Source: [WHO Immunization Reports](https://www.who.int/data/gho)
-   - File Name: `immunization_statewise.xlsx`
+2. **DTP1 Coverage**:
+   - Source: [WHO Immunization Reports](https://immunizationdata.who.int/global/wiise-detail-page/diphtheria-tetanus-toxoid-and-pertussis-(dtp)-vaccination-coverage?CODE=NGA&ANTIGEN=DTPCV1&YEAR=)
+   - File Name: `DTP1_coverage.xlsx`
+3. **
 
 ## Dataset Descriptions
 - **zero_dose_coverage.csv**: Contains annual DTP1 coverage rates and the number of zero-dose children in Nigeria from 2000 to 2023.
-- **immunization_statewise.xlsx**: State-wise immunization coverage rates for Nigeria, including DTP1, DTP3, and BCG.
+- **immunization_statewise.xlsx**: State-wise immunization coverage rates for Nigeria, including DTP1.
 
 ## Notes
 - The raw data files are provided in their original format. Any modifications or cleaning steps will be documented in the `notebooks/` folder.
